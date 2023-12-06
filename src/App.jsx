@@ -73,7 +73,7 @@ export default function App(){
           <Input.Password placeholder='Confirm password' aria-label='Confirm your password here'></Input.Password>
         </Form.Item>
         <Text style={{fontSize: '0.7rem'}}>Already have an account? <Button size='small' style={{fontSize: '0.7rem'}} type='link' onClick={()=>setIsNew(false)}>Sign in</Button></Text>
-        <Form.Item wrapperCol={{offset: 14, span: 'auto'}}>
+        <Form.Item wrapperCol={{offset: 18, span: 'auto'}}>
           <Button htmlType='submit' type='primary'>Add Task</Button>
         </Form.Item> 
       </Form>
