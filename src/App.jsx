@@ -108,7 +108,7 @@ export default function App(){
         {isNew? <SignUp></SignUp>: <SingIn></SingIn>}
         <footer>
                 <GithubFilled></GithubFilled> 
-                <p>View Source Code <a href="https://github.com/Annaick/toDo" rel='noopener norefer'>here</a></p>
+                <p>View Source Code <a href="https://github.com/Annaick/loginPage" rel='noopener norefer'>here</a></p>
         </footer>
       </div>
     </ConfigProvider>
